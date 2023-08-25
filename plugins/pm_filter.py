@@ -41,9 +41,6 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
-req_channel = REQ_CHANNEL
-BUTTONS = {}
-SPELL_CHECK = {}
 
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
